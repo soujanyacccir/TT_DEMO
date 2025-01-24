@@ -33,28 +33,8 @@ Each clock cycles ALU performs one of the 8 possible operations and stores resul
 
 
 ## How to test
-The following diagram shows a simple test setup that can be used to test ALU
-    ```
-      VCC
-      |    __|__ pushbutton
-      +----.   .-------------+
-                            _|_
-                 schmitt    \ /
-                 trigger     O
-                 inverter    |
-                             +--> CLK   OUT0--> +-----------+
-                   +--------+---> OP0   OUT1--> +  hex to   +
-                   +        +---> OP1   OUT2--> + 7 segment +--->> 7 segment display
-                   +        +---> OP2   OUT3--> +  decoder  +
-                   +  DIP   +---> IMM0          +-----------+
-                   + switch +---> IMM1          
-                   +        +---> IMM2          
-                   +        +---> IMM3 CARRY--> LED
-                   +--------+--
-    ```
-    
-    To reset ALU set all input pins to 0 which corresponds to ```lda 0``` operation
-    loading Accumulator register with 0.
+
+  
 
 ## External hardware
 
