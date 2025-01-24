@@ -34,7 +34,7 @@ Each clock cycles ALU performs one of the 8 possible operations and stores resul
 
 ## How to test
 
-Explain how to use your project
+
 The following diagram shows a simple test setup that can be used to test ALU
     ```
       VCC
