@@ -1,7 +1,9 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
 # Tiny Tapeout Wokwi Project Template
+This is a digital design for a 4-bit ALU inspired by classical Z80 and 6502 processors.
 
+I wanted design to be visually easy to understand and closer to perhaps how it would've been done back in the days, so I chose to design logic circuit in Wokwi instead of HDL. Check it out directly in your browser https://wokwi.com/projects/420934592674143233
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
