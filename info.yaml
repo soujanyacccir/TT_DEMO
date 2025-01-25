@@ -17,13 +17,13 @@ project:Wokwi project
 pinout:
   # Inputs
     - clock
-    - opcode 0th bit
+    - opcode 0th bit(MSB)
     - opcode 1st bit
-    - opcode 2nd bit
-    - operand 0th bit
+    - opcode 2nd bit(LSB)
+    - operand 0th bit(MSB)
     - operand 1st bit
     - operand 2nd bit
-    - operand 3rd bit
+    - operand 3rd bit(LSB)
 
   # Outputs
     - accumulator value 0th bit
