@@ -30,9 +30,9 @@ pinout:
     - accumulator value 1st bit
     - accumulator value 2nd bit
     - accumulator value 3rd bit
-    - unused (TODO: negative flag)
-    - unused (TODO: overflow flag)
-    - unused (TODO: zero flag)
+    - 
+    - 
+    - 
     - carry flag
 
   # Bidirectional pins
